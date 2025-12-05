@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self Help",
+    "rating": 4,
+    "image": "https://m.media-amazon.com/images/I/81WcnNQ-TBL.jpg",
+    "review": "A powerful guide on building good habits and breaking bad ones with practical techniques."
+  },
+  {
+    "id": 2,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "rating": 5,
+    "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg",
+    "review": "An inspiring tale about following your dreams and listening to your heart."
+  },
+  {
+    "id": 3,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "genre": "Finance",
+    "rating": 4,
+    "image": "https://m.media-amazon.com/images/I/81gepf1eMqL.jpg",
+    "review": "A book teaching financial literacy and the mindset needed for wealth creation."
+  },
+  {
+    "id": 4,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Classic Fiction",
+    "rating": 4.8,
+    "image": "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg",
+    "description": "A timeless novel addressing racial injustice and moral growth."
+  },
+  {
+    "id": 5,
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "genre": "Spirituality",
+    "rating": 4.6,
+    "image": "https://m.media-amazon.com/images/I/71D9D0tTnPL.jpg",
+    "description": "A guide to spiritual enlightenment and living fully in the present moment."
+  },
+  {
+    "id": 6,
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "rating": 4.7,
+    "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
+    "description": "A chilling dystopian novel exploring government control and surveillance."
+  },
+  {
+    "id": 7,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "rating": 4.6,
+    "image": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg",
+    "description": "A thought-provoking exploration of the history and impact of Homo sapiens."
+  },
+  {
+    "id": 8,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self Help",
+    "rating": 4.4,
+    "image": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg",
+    "description": "A no-nonsense approach to living a better life by focusing on what truly matters."
+  },
+  {
+    "id": 9,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Classic Fiction",
+    "rating": 4.5,
+    "image": "https://m.media-amazon.com/images/I/81vgUeB5EIL.jpg",
+    "description": "A romantic classic exploring love, society, and the nuances of human behavior."
+  },
+  {
+    "id": 10,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "Psychology",
+    "rating": 4.7,
+    "image": "https://m.media-amazon.com/images/I/71xLmd+7X9L.jpg",
+    "description": "A deep dive into human thinking, decision-making, and cognitive biases."
+  }
+]
+
