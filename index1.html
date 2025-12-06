@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+     <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        .hero {
+            
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+        .rating {
+            color: #FFD700;
+            font-size: 1.2rem;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+
+  <header class="top-bar">
+    <div class="title-area">
+     <h1 class="logo">
+  <i class="fa-solid fa-book-open"></i>
+  Book Hub
+</h1>
+
+    </div>
+
+    <div class="search-area">
+      <input type="text" id="searchInput" placeholder="Search books...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="genre-bar">
+      <button class="genre-btn active" data-genre="All">All</button>
+      <button class="genre-btn" data-genre="Fiction">Fiction</button>
+      <button class="genre-btn" data-genre="Self-help">Self-help</button>
+      <button class="genre-btn" data-genre="Motivation">Motivation</button>
+      <button class="genre-btn" data-genre="Mystery">Mystery</button>
+      <button class="genre-btn" data-genre="Sci-Fi">Sci-Fi</button>
+      <!-- add more as needed -->
+    </div>
+  </header>
+  <!-- HERO SECTION (Featured Book) -->
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-overlay">
+    <h2>Discover • Read • Review</h2>
+    <p>Explore books that inspire, educate, and entertain</p>
+  </div>
+</section>
+
+
+  <main id="booksContainer"></main>
+
+  <div id="reviewModal">
+    <div class="modal-content">
+      <button id="closeModal">&times;</button>
+      <h2 id="modalTitle"></h2>
+      <p id="modalReview"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
